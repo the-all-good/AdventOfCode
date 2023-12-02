@@ -1,0 +1,133 @@
+[01-Dec-2023 15:25:33 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:28
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(44): match_num('eighttwo2twofou...')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:26:24 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:33
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(44): match_num('9sixonefour')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 33
+[01-Dec-2023 15:27:09 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:33
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(44): match_num('9sixonefour')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 33
+[01-Dec-2023 15:27:32 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:28
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(44): match_num('eighttwo2twofou...')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:28:56 UTC] PHP Warning:  Array to string conversion in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 32
+[01-Dec-2023 15:28:56 UTC] PHP Warning:  Array to string conversion in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 32
+[01-Dec-2023 15:28:56 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:28
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(45): match_num('eighttwo2twofou...')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:29:09 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:28
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(45): match_num('eighttwo2twofou...')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:29:36 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:28
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(45): match_num('eighttwo2twofou...')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:29:57 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:28
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(45): match_num('eighttwo2twofou...')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:31:26 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:37
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(48): match_num('9sixonefour')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 37
+[01-Dec-2023 15:32:35 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:36
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(47): match_num('9sixonefour')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 36
+[01-Dec-2023 15:33:40 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:37
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(48): match_num('9sixonefour')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 37
+[01-Dec-2023 15:34:17 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:38
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(49): match_num('9sixonefour')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 38
+[01-Dec-2023 15:35:11 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:38
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(49): match_num('9sixonefour')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 38
+[01-Dec-2023 15:35:37 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:37
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(49): match_num('9sixonefour')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 37
+[01-Dec-2023 15:38:06 UTC] PHP Warning:  Array to string conversion in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 35
+[01-Dec-2023 15:38:06 UTC] PHP Warning:  Undefined variable $Array in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 35
+[01-Dec-2023 15:38:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 35
+[01-Dec-2023 15:38:06 UTC] PHP Warning:  Array to string conversion in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 35
+[01-Dec-2023 15:38:06 UTC] PHP Warning:  Undefined variable $Array in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 35
+[01-Dec-2023 15:38:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 35
+[01-Dec-2023 15:38:06 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:31
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(49): match_num('eighttwo2twofou...')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 31
+[01-Dec-2023 15:38:37 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:31
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(48): match_num('eighttwo2twofou...')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 31
+[01-Dec-2023 15:39:01 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:31
+Stack trace:
+#0 /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php(47): match_num('eighttwo2twofou...')
+#1 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 31
+[01-Dec-2023 15:39:28 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 27
+[01-Dec-2023 15:39:28 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:39:28 UTC] PHP Deprecated:  strrev(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:39:28 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 30
+[01-Dec-2023 15:39:28 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 33
+[01-Dec-2023 15:39:57 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 27
+[01-Dec-2023 15:39:57 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:39:57 UTC] PHP Deprecated:  strrev(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:39:57 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 30
+[01-Dec-2023 15:39:57 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 33
+[01-Dec-2023 15:39:57 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + string in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php:48
+Stack trace:
+#0 {main}
+  thrown in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 48
+[01-Dec-2023 15:40:27 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 27
+[01-Dec-2023 15:40:27 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:40:27 UTC] PHP Deprecated:  strrev(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:40:27 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 30
+[01-Dec-2023 15:40:27 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 33
+[01-Dec-2023 15:43:15 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 50
+[01-Dec-2023 15:43:15 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 50
+[01-Dec-2023 15:43:16 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 27
+[01-Dec-2023 15:43:16 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:43:16 UTC] PHP Deprecated:  strrev(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:43:16 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 30
+[01-Dec-2023 15:43:16 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 33
+[01-Dec-2023 15:43:29 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 50
+[01-Dec-2023 15:43:29 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 50
+[01-Dec-2023 15:43:30 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 27
+[01-Dec-2023 15:43:30 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:43:30 UTC] PHP Deprecated:  strrev(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:43:30 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 30
+[01-Dec-2023 15:43:30 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 33
+[01-Dec-2023 15:43:40 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 50
+[01-Dec-2023 15:43:40 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 50
+[01-Dec-2023 15:43:41 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 27
+[01-Dec-2023 15:43:41 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:43:41 UTC] PHP Deprecated:  strrev(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 28
+[01-Dec-2023 15:43:41 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 30
+[01-Dec-2023 15:43:41 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/scripts/AdventofCode/Day01/day1.php on line 33
