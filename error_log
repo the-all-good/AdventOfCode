@@ -1,0 +1,24 @@
+[02-Dec-2023 12:29:55 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 25
+[02-Dec-2023 12:29:55 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 26
+[02-Dec-2023 12:29:55 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 26
+[02-Dec-2023 12:29:55 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 34
+[02-Dec-2023 12:29:55 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 34
+[02-Dec-2023 12:29:55 UTC] PHP Warning:  Undefined array key "" in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 40
+[02-Dec-2023 12:31:32 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_1.php on line 20
+[02-Dec-2023 12:31:32 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_1.php on line 21
+[02-Dec-2023 12:31:32 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_1.php on line 21
+[02-Dec-2023 12:31:32 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_1.php on line 28
+[02-Dec-2023 12:31:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_1.php on line 28
+[02-Dec-2023 12:31:32 UTC] PHP Warning:  Undefined array key "" in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_1.php on line 30
+[02-Dec-2023 12:31:58 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 25
+[02-Dec-2023 12:31:58 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 26
+[02-Dec-2023 12:31:58 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 26
+[02-Dec-2023 12:31:58 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 34
+[02-Dec-2023 12:31:58 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 34
+[02-Dec-2023 12:31:58 UTC] PHP Warning:  Undefined array key "" in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 40
+[02-Dec-2023 12:33:22 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 25
+[02-Dec-2023 12:33:22 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 26
+[02-Dec-2023 12:33:22 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 26
+[02-Dec-2023 12:33:22 UTC] PHP Warning:  Undefined array key 1 in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 34
+[02-Dec-2023 12:33:22 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 34
+[02-Dec-2023 12:33:22 UTC] PHP Warning:  Undefined array key "" in /usr/local/cpanel/scripts/AdventofCode/Day02/day2_2.php on line 40
