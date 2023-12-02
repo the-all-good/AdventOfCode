@@ -1,7 +1,8 @@
 <?php
 function get_input($url){
-    $ch = curl_init ($url);
-    $cookie = "session=53616c7465645f5f03592f4ae5d51c0ca73d05fc18ce7406b3375ca0d5263d45f9cec43c36874c40eb66874016060330c8143abc90ebfa0d5c9243b91cb154b6";
+    $cookie = "session=" . parse_ini_file('.env')['SESSION'];
+
+    $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_COOKIE, $cookie);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
