@@ -10,13 +10,17 @@ function get_input($url){
     curl_close($ch);
     return $output;
 }
-function locate_symbols($grid){
+function locate_numbers($grid){
     $symbol_locations = [];
     $y_axis = 0;
     foreach($grid as $lines){
         foreach($lines as $key => $character){
-            if(!is_numeric($character) && $character !== "."){
-                $symbol_locations[$y_axis][] = $key;
+            if(is_numeric($character) && !is_numeric($grid[$y_axis][$key -1])){
+                $len = 0;
+                while(is_numeric($grid[$y_axis][$key + $len])){
+                    $len += 1;
+                }
+                $symbol_locations[$y_axis][$key] = $len;
             }
         }
         $y_axis += 1;
@@ -39,59 +43,42 @@ function create_grid($input){
     return $grid;
 }
 function find_number_allies($grid, $symbol_coordinates){
-    // Grid                 
-    // [136] => Array       
-    //     (
-    //         [0] => .
-    //         [1] => .
-    //         [2] => .
-    //         [3] => .
-    //         [4] => 7
-    //         [5] => 1
-    // Symbol coord
-    // [137] => Array
-    //     (
-    //         [0] => 46
-    //         [1] => 64
-    //         [2] => 132
-    //     )
     $number_locations = [];
     foreach($symbol_coordinates as $y_axis => $array){
-        foreach($array as $location){
-            if(is_numeric($grid[$y_axis][$location])){
-                $number_locations[$y_axis][] = $grid[$y_axis][$location];
-            }
-            if(is_numeric($grid[$y_axis + 1][$location])){
-                $number_locations[$y_axis][] = $grid[$y_axis + 1][$location];
-            }
-            if(is_numeric($grid[$y_axis][$location + 1])){
-                $number_locations[$y_axis][] = $grid[$y_axis][$location + 1];
-            }
-            if(is_numeric($grid[$y_axis + 1][$location + 1])){
-                $number_locations[$y_axis][] = $grid[$y_axis + 1][$location + 1];
-            }
-            if(is_numeric($grid[$y_axis + 1][$location - 1])){
-                $number_locations[$y_axis][] = $grid[$y_axis + 1][$location - 1];
-            }
-            if(is_numeric($grid[$y_axis - 1][$location])){
-                $number_locations[$y_axis][] = $grid[$y_axis - 1][$location];
-            }
-            if(is_numeric($grid[$y_axis][$location - 1])){
-                $number_locations[$y_axis][] = $grid[$y_axis][$location - 1];
-            }
-            if(is_numeric($grid[$y_axis - 1][$location - 1])){
-                $number_locations[$y_axis][] = $grid[$y_axis - 1][$location - 1];
-            }
-            if(is_numeric($grid[$y_axis - 1][$location + 1])){
-                $number_locations[$y_axis][] = $grid[$y_axis - 1][$location + 1];
+        foreach($array as $location => $len){
+            for($i = -1; $i <= $len; $i++){
+                $num = '';
+                for($x = 0; $x < $len; $x++){
+                    $num = $num . $grid[$y_axis][$location + $x];
+                }
+                $above = $grid[$y_axis -1][$location + $i];
+                $mid = $grid[$y_axis][$location + $i];
+                $below = $grid[$y_axis +1][$location + $i];
+
+               if(!is_numeric($above) && $above !== "." && !is_null($above)){
+                    $number_locations[] = intval($num);
+                    break;
+                }
+                if(!is_numeric($mid) && $mid !== "." && !empty($mid) && !is_null($mid)){
+                    $number_locations[] = intval($num);
+                    break;
+                }
+                if(!is_numeric($below) && $below !== "." && !empty($below) && !is_null($below)){
+                    $number_locations[] = intval($num);
+                    break;
+                }
             }
         }
     }
-    return $number_locations;
+    $total = 0;
+    foreach($number_locations as $num){
+        $total += $num;
+    }
+    return $total;
 }
+
 
 $input = get_input("https://adventofcode.com/2023/day/3/input");
 $grid = create_grid($input);
-$symbols = locate_symbols($grid);
-print_r(find_number_allies($grid, $symbols));
-// print_r($grid);
+$numbers = locate_numbers($grid);
+print_r(find_number_allies($grid, $numbers));
