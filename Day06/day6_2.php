@@ -22,8 +22,8 @@ function findDistance(array $input){
     return $total;
 }
 
-$input = new Input;
-$input = $input->get_input("https://adventofcode.com/2023/day/6/input");
+$input = new Input("https://adventofcode.com/2023/day/6/input");
+$input = $input->get_input();
 $input = format_inputs($input);
 $total = array_product(findDistance($input));
 print_r($total);

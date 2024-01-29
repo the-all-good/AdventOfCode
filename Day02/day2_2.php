@@ -1,15 +1,5 @@
 <?php
-function get_input($url){
-    $cookie = "session=" . parse_ini_file('.env')['SESSION'];
-
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    curl_setopt($ch, CURLOPT_COOKIE, $cookie);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    $output = curl_exec($ch);
-    curl_close($ch);
-    return $output;
-}
+include 'src/input.php';
 function check_cubes($line){
     $max_cubes = [
         "red" => 12,
@@ -50,7 +40,8 @@ function check_cubes($line){
 
 $total = 0;
 // check_cubes("Game 95: 13 blue, 4 green, 3 red; 15 green, 3 red, 2 blue; 16 green, 8 blue, 2 red");
-foreach(explode("\n", get_input("https://adventofcode.com/2023/day/2/input")) as $line){
+$input = new Input("https://adventofcode.com/2023/day/2/input");
+foreach(explode("\n", $input->get_input()) as $line){
     $total += check_cubes($line);
 }
 echo $total . "\n";

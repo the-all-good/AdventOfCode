@@ -1,15 +1,5 @@
 <?php
-function get_input($url){
-    $cookie = "session=" . parse_ini_file('.env')['SESSION'];
-
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    curl_setopt($ch, CURLOPT_COOKIE, $cookie);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    $output = curl_exec($ch);
-    curl_close($ch);
-    return $output;
-}
+include 'src/input.php';
 function get_games($input){
     $games = explode("\n", $input);
     foreach($games as $line){
@@ -44,7 +34,8 @@ function play_game($game_info){
     }
     return $game_info;
 }
-$input = get_input("https://adventofcode.com/2023/day/4/input");
+$input = new Input("https://adventofcode.com/2023/day/4/input");
+$input = $input->get_input();
 $total = 0;
 foreach(play_game(get_games($input)) as $game){
     $total += intval($game['game_count']);

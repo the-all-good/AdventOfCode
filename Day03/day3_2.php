@@ -1,15 +1,5 @@
 <?php
-function get_input($url){
-    $cookie = "session=" . parse_ini_file('.env')['SESSION'];
-
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    curl_setopt($ch, CURLOPT_COOKIE, $cookie);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    $output = curl_exec($ch);
-    curl_close($ch);
-    return $output;
-}
+include 'src/input.php';
 function locate_symbols($grid){
     $symbol_locations = [];
     $y_axis = 0;
@@ -119,7 +109,8 @@ function find_number_allies($grid, $symbol_coordinates){
 //     foreach($coordinate)
 // }
 
-$input = get_input("https://adventofcode.com/2023/day/3/input");
+$input = new Input("https://adventofcode.com/2023/day/3/input");
+$input = $input->get_input();
 $grid = create_grid($input);
 $symbols = locate_symbols($grid);
 print_r(find_number_allies($grid, $symbols));

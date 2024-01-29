@@ -1,16 +1,5 @@
 <?php
-function get_input($url){
-    $cookie = "session=" . parse_ini_file('.env')['SESSION'];
-
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    curl_setopt($ch, CURLOPT_COOKIE, $cookie);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    $output = curl_exec($ch);
-    curl_close($ch);
-    return $output;
-}
-
+include 'src/input.php';
 function match_num($line){
     $matches = [
         'one'=> 1,
@@ -42,7 +31,8 @@ function match_num($line){
     return intval($num);
 }
 function level_1(){
-    $output = get_input("https://adventofcode.com/2023/day/1/input");
+    $output = new Input("https://adventofcode.com/2023/day/1/input");
+    $output = $output->get_input();
     $words = explode("\n", $output);
     $total = 0;
     foreach($words as $line){
@@ -64,4 +54,3 @@ function level_2(){
     return $total;
 }
 echo level_1() . "\n" . level_2() . "\n";
-?>
