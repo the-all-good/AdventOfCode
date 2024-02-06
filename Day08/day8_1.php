@@ -15,16 +15,9 @@ function sort_input(array $input){
 
 function follow_mapping(array $directions, array $map){
     $count = 0;
-    $current_location = "";
+    $current_location = "AAA";
     while($current_location !== "ZZZ"){
         foreach($directions as $l_or_r){
-            if(!isset($current_location)){
-                if($l_or_r === 'L'){
-                    $current_location = $map["AAA"]['left'];
-                }else{
-                    $current_location = $map["AAA"]['right'];
-                }
-            }
             if($l_or_r === 'L'){
                 $current_location = $map[$current_location]['left'];
             }else{
