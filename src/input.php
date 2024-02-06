@@ -19,6 +19,11 @@ class Input{
     }
     public function split_by_newlines(){
         $split = explode("\n", $this->get_input());
+        foreach($split as $key => $line){
+            if($line === ""){
+                unset($split[$key]);
+            }
+        }
         return $split;
     }
 }
